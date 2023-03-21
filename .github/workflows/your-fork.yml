@@ -6,7 +6,7 @@ on:
 
 jobs:
   close:
-    if: github.repository == 'david30907d/tfc-guide-example'
+    if: github.repository == 'david30907d/tf-loom-recording'
     runs-on: ubuntu-latest
     steps:
     - uses: superbrothers/close-pull-request@v3
